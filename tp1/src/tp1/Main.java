@@ -1,7 +1,6 @@
 package tp1;
 
 public class Main {
-
 	public static void main(String[] args) {
 		Calculatrice c1 = new Calculatrice();
 		c1.setNbr1(10);
@@ -16,4 +15,6 @@ public class Main {
 		System.out.println(c2.somme());
 		System.out.println(c2.produit());
 	}
+	//https://github.com/mehdiTmimi/eclipse-workspace-sup
+	
 }
