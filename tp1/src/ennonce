@@ -1,0 +1,16 @@
+	// exercice:
+	/*
+	 * creer une classe nommee Calculatrice qui a:
+	 *  - proprietes : nombre 1 reel et nombre 2 reel
+	 *  - constructeur sans params: initialise 
+	 			les proprietes par zero
+	 *  - constructeur avec deux params.
+	 *  - getters and setters
+	 *  - le methodes suivantes: 1- somme => 
+	 							retourne la somme 
+	 *  						 2- produit => 
+	 							retourne le produit
+	 *  						 3- description => affiche dans la console les valeurs des proprietes
+	 *  tester votre classe dans le main
+
+	 */
