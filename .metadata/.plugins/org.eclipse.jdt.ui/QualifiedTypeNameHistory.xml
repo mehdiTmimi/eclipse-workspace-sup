@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="tp1.Calculatrice"/>
+    <fullyQualifiedTypeName name="statique.Personne"/>
+    <fullyQualifiedTypeName name="p2.Personne"/>
+    <fullyQualifiedTypeName name="heritage.Personne"/>
+    <fullyQualifiedTypeName name="heritage.Professeur"/>
+    <fullyQualifiedTypeName name="heritage.Etudiant"/>
+</qualifiedTypeNameHistroy>
