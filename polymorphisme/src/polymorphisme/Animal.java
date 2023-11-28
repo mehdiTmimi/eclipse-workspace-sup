@@ -1,8 +1,6 @@
 package polymorphisme;
 
-public class Animal{
+public abstract class Animal{
 
-	public void crier() {
-		System.out.println("crieer");
-	}
+	public abstract void crier();
 }

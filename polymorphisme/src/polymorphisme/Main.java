@@ -7,7 +7,7 @@ public class Main {
 	}
 	private void exp02() {
 		Animal[] zoo = new Animal[4];
-		zoo[0]=new Animal();
+		zoo[0]=new Chat();
 		zoo[1]=new Chien();
 		zoo[2]=new Chat();
 		zoo[3]=new Pitbull();

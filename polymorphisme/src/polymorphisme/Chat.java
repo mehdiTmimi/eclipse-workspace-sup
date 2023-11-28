@@ -1,8 +1,6 @@
 package polymorphisme;
 
-public class Chat extends Animal{
-	@Override
-	public void crier() {
-		System.out.println("miawmiaw");
-	}
+public abstract class Chat extends Animal{
+
 }
+//https://github.com/mehdiTmimi/eclipse-workspace-sup
