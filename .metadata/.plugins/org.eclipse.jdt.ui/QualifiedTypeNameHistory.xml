@@ -6,4 +6,11 @@
     <fullyQualifiedTypeName name="heritage.Personne"/>
     <fullyQualifiedTypeName name="heritage.Professeur"/>
     <fullyQualifiedTypeName name="heritage.Etudiant"/>
+    <fullyQualifiedTypeName name="polymorphisme.Animal"/>
+    <fullyQualifiedTypeName name="polymorphisme.Pitbull"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="polymorphisme.Chat"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Homme"/>
 </qualifiedTypeNameHistroy>
