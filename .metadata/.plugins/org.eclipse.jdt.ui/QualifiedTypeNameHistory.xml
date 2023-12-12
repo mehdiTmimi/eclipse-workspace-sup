@@ -8,9 +8,16 @@
     <fullyQualifiedTypeName name="heritage.Etudiant"/>
     <fullyQualifiedTypeName name="polymorphisme.Animal"/>
     <fullyQualifiedTypeName name="polymorphisme.Pitbull"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="polymorphisme.Chat"/>
     <fullyQualifiedTypeName name="Main"/>
     <fullyQualifiedTypeName name="Person"/>
     <fullyQualifiedTypeName name="Homme"/>
+    <fullyQualifiedTypeName name="interfaces.Main"/>
+    <fullyQualifiedTypeName name="interfaces_case.Calculatrice"/>
+    <fullyQualifiedTypeName name="interfaces_case.ConsoleExecute"/>
+    <fullyQualifiedTypeName name="interfaces_case.ErrorExecute"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="interfaces_case.GraphicExecute"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
