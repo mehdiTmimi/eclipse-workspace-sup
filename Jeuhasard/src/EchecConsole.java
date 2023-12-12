@@ -1,17 +1,15 @@
 
 public class EchecConsole implements IEchec{
-
-	private int nbrEchec;
+	private Main main;
 	public EchecConsole() {
-		this.nbrEchec=0;
 	}
 	@Override
 	public void loose(int nbrLucky) {
 		System.err.println("sorry , u lost. "+
 				"the lucky number was " +nbrLucky);
-		this.nbrEchec++;
+		main.incrementEchec();
 	}
-	public int getNbrEchec() {
-		return this.nbrEchec;
+	public void setMain(Main main) {
+		this.main=main;
 	}
 }

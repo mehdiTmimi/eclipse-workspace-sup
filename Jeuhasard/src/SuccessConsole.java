@@ -1,16 +1,14 @@
 
 public class SuccessConsole implements ISuccess{
 
-	private int nbrSuccess;
-	public SuccessConsole() {
-		nbrSuccess=0;
+	private Main main;
+	public SuccessConsole(Main main) {
+		this.main=main;
 	}
 	@Override
 	public void win() {
 		System.out.println("Congratulations !!!!!!");
-		this.nbrSuccess++;
+		main.incremenetSuccess();
 	}
-	public int getNbrSuccess() {
-		return this.nbrSuccess;
-	}
+
 }
