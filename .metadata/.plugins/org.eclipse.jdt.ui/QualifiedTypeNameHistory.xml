@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="polymorphisme.Animal"/>
     <fullyQualifiedTypeName name="polymorphisme.Pitbull"/>
     <fullyQualifiedTypeName name="polymorphisme.Chat"/>
-    <fullyQualifiedTypeName name="Main"/>
     <fullyQualifiedTypeName name="Person"/>
     <fullyQualifiedTypeName name="Homme"/>
     <fullyQualifiedTypeName name="interfaces.Main"/>
@@ -20,4 +19,12 @@
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="interfaces_case.GraphicExecute"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="java.util.jar.JarOutputStream"/>
+    <fullyQualifiedTypeName name="ISuccess"/>
+    <fullyQualifiedTypeName name="IEchec"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="SuccessConsole"/>
+    <fullyQualifiedTypeName name="EchecConsole"/>
 </qualifiedTypeNameHistroy>
