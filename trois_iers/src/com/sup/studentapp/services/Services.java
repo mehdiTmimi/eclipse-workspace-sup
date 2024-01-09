@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.sup.studentapp.models.Student;
 
+// contient toutes les fonctionalites du systeme
 public interface Services{
     // Students
 	public boolean ajouterStudent(Student student);

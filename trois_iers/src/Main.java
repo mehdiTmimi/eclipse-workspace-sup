@@ -13,8 +13,8 @@ import com.sup.studentapp.services.DefaultServices;
 public class Main{
 
 	public Main() {
-		DefaultServices s = 
-				new DefaultServices(new StudentDaoFlatFile());
+		DefaultServices s = DefaultServices.getInstance();
+				
 		List<Student> students = s.getStudents();
 		
 		/*

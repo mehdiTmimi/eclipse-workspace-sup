@@ -8,11 +8,16 @@ import com.sup.studentapp.models.Student;
 
 public class DefaultServices implements Services{
 
-	// I i  = tout objet d'une classe
-	// qui implemte I
+	// Singleton
+	private static DefaultServices instance;
+	public static DefaultServices getInstance() {
+		if(instance == null)
+			instance = new DefaultServices(new StudentDaoMemory());
+		return instance;
+	}
 	// Bridge => design pattern
 	private StudentDao studentDao;
-	public DefaultServices(StudentDao studentDao) {
+	private DefaultServices(StudentDao studentDao) {
 		this.studentDao= studentDao;
 	}
 	@Override
