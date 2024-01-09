@@ -64,20 +64,43 @@ public class StudentDaoFlatFile implements StudentDao{
 
 	@Override
 	public List<Student> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return students;
 	}
 
 	@Override
 	public boolean remove(String cin) {
-		// TODO Auto-generated method stub
-		return false;
+		Student student = get(cin);
+    	if(student==null)
+    		return false;
+    	students.remove(student);
+		String ch = gson.toJson(students);
+		try {
+    		FileWriter writer = new FileWriter("students.json");
+    		writer.write(ch);
+    		writer.close();
+    	}catch(Exception e) {
+			students.add(student);
+    		return false;
+    	}
+		return true;
 	}
 
 	@Override
 	public Student update(Student student) {
-		// TODO Auto-generated method stub
-		return null;
+		Student oldStudent = get(student.getCin());
+    	if(oldStudent==null)
+    		return null;
+    	oldStudent.setNom(student.getNom());
+    	oldStudent.setAge(student.getAge());
+		String ch = gson.toJson(students);
+		try {
+    		FileWriter writer = new FileWriter("students.json");
+    		writer.write(ch);
+    		writer.close();
+    	}catch(Exception e) {
+    		return false;
+    	}
+    	return oldStudent;
 	}
 
 }

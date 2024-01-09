@@ -8,12 +8,15 @@ import com.sup.studentapp.dao.StudentDao;
 import com.sup.studentapp.dao.StudentDaoFlatFile;
 import com.sup.studentapp.dao.StudentDaoMemory;
 import com.sup.studentapp.models.Student;
+import com.sup.studentapp.services.DefaultServices;
 
 public class Main{
 
 	public Main() {
-		StudentDao  studentDao=new StudentDaoFlatFile();
-		studentDao.save(new Student("fffffff","omar",20));
+		DefaultServices s = 
+				new DefaultServices(new StudentDaoFlatFile());
+		List<Student> students = s.getStudents();
+		
 		/*
 		 * 
 		 * {
